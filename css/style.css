@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6eff5;
+  flex-direction: column;
+  font-family: "Karla", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+.card {
+  width: 635px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+  border-radius: 8px 8px 0 0;
+}
+.card__title {
+  color: #2ab3b1;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.card__main {
+  color: #c0df33;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card__text {
+  color: #9aa7be;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer {
+  display: flex;
+  color: #fff;
+}
+.footer__left {
+  width: 317.5px;
+  background-color: #19c2bf;
+  padding: 40px;
+  border-radius: 0 0 0 8px;
+}
+.footer__right {
+  width: 317.5px;
+  background-color: #30dad7;
+  padding: 40px;
+  border-radius: 0 0 8px 0;
+}
+.footer__left-title {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer__cost {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__month {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.5;
+}
+span {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+.footer__left-text {
+  margin-bottom: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 237.5px;
+  height: 48px;
+  background-color: #c0df33;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.footer__right-title {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer__right-text {
+  font-size: 17px;
+  opacity: 0.75;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+}
